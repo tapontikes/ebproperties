@@ -1,1 +1,24 @@
-/* You can add global styles to this file, and also import other style files */
+.app {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  background-color: #5c5e73;
+}
+
+.header {
+  height: 10em;
+  background-color: #262b33;
+}
+
+.footer{
+  height: 6em;
+  background-color: #888eac;
+}
+
+.content {
+  flex: 1;
+}
+
+body{
+  margin: 0;
+}

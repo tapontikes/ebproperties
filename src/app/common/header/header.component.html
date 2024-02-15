@@ -1,0 +1,12 @@
+<div class="header-container">
+  <div class="logo">
+    <img src="assets/imgLogo.jpg" alt="Logo">
+  </div>
+  <div class="header-elements" [ngClass]="{ 'collapsed': isNavCollapsed }">
+    <a routerLink="/home">Home</a>
+    <a routerLink="/about">About</a>
+    <a routerLink="/properties">Properties</a>
+    <a routerLink="/contact">Contact</a>
+  </div>
+  <div class="toggle-button" (click)="toggleNavbar()">☰</div>
+</div>

@@ -9,6 +9,13 @@ export class HeaderComponent implements OnInit {
 
   constructor() { }
 
+  isNavCollapsed = true;
+
+  toggleNavbar() {
+    this.isNavCollapsed = !this.isNavCollapsed;
+  }
+
+
   ngOnInit(): void {
   }
 
