@@ -17,5 +17,5 @@ jobs:
           server: 02e6122.netsolhost.com
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
-          server-dir: /old_site/
+          server-dir: /
           local-dir: old_site/
