@@ -14,7 +14,7 @@ jobs:
       - name: Upload Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
-          server: 02e6122.netsolhost.com
+          server: ${{ secrets.ftp_server }}
           username: ${{ secrets.ftp_username }}
           password: ${{ secrets.ftp_password }}
           server-dir: /
