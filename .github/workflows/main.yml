@@ -2,16 +2,16 @@ on:
   push:
     branches:
       - master
-name: 🚀 Deploy website on push
+name: FTP Deploy Changed Fo;es
 jobs:
   web-deploy:
-    name: 🎉 Deploy
+    name: FTP Deploy
     runs-on: ubuntu-latest
     steps:
-      - name: 🚚 Get latest code
+      - name: Checkout
         uses: actions/checkout@v3
 
-      - name: 📂 Sync files
+      - name: FTP Sync
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: 02e6122.netsolhost.com
