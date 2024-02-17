@@ -11,7 +11,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v3
 
-      - name: FTP Sync
+      - name: Upload Files
         uses: SamKirkland/FTP-Deploy-Action@v4.3.4
         with:
           server: 02e6122.netsolhost.com
